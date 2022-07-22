@@ -1,0 +1,273 @@
+body{
+    background-color: #EEEEED;
+}
+.navbar {
+    height: 80px;
+    background: rgb(255, 253, 253) !important;
+    border: 2px solid transparent;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.navbar .nav-item  :hover{
+    color: black !important;
+    background-color: #FF3744;
+    border-radius: 10px;
+
+}
+.navbar .nav-item a {
+    color: #111010 !important;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    /* margin: 15px; */
+    margin-left: 45px;
+    font-weight: 500;
+    
+    
+}
+
+.navbar .navbar-nav {
+    margin: auto;
+}
+.navbar-collapse{
+    flex-grow: 0;
+    z-index: 2;
+}
+
+/* #contactbtn {
+    background-color: #FF3744;
+    padding: 10px;
+    border-radius: 15px;
+} */
+/* .slider {
+    background-image: url(../img2pf/pexels-scott-webb-1022923.jpeg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.832);
+    background-repeat: none;
+    background-size: 1200px;
+    width: 100%;
+    margin-top: 15px;
+    
+
+
+} */
+/* .slider-image img{
+    width: 100%;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
+h3{
+    color: rgb(5, 142, 173);
+}
+.navbar-brand {
+    
+} */
+.carousel-item {
+    height: 95vh;
+    min-height: 300px;
+}
+.carousel-caption {
+    bottom: 200px;
+    z-index: 1;
+    color: #111010;
+    padding: 30px;
+
+}
+.carousel-caption h5{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 84px;
+    letter-spacing: 3px;
+    color: #FF3744;
+    margin-bottom: 25px;
+
+}
+.carousel-caption a {
+    text-decoration: none;
+    border: 2px solid #343130;
+    padding: 10px 20px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 35px;
+    color: #FF3744;
+
+}
+.carousel-caption a:hover {
+    background-color: #FF3744 !important;
+    color: #0a0a09;
+
+}
+
+.carousel {
+    margin-top: 20px;
+    
+}
+.d-block {
+    z-index: -2;
+    position: relative;
+}
+.scndlb{
+    font-size: 25px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    
+
+}
+.hi {
+    text-align: start;
+    /* position: absolute; */
+    margin-left: 138px;
+    color: #FF3744;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+.carousel-control-prev {
+    width: 40px;
+    height: 40px;
+    background-color: #FF3744 !important;
+    border-radius: 50%;
+    left: 5%;
+    top: calc(50%)
+}
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #FF3744 !important;
+    border-radius: 50%;
+    right: 5%;
+    top: calc(50%)
+}
+.p1 :hover {
+    color: black;
+    background-color: #FF3744;
+}
+.p1{
+    /* letter-spacing: 1px; */
+    font-family: 'Poppins', sans-serif;
+
+}
+.navbar-brand img {
+    height: 75px;
+
+}
+
+/* About section */
+
+.about {
+    height: 100vh;
+    margin-top: 50px;
+}
+.abt {
+    font-size: 25px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+}
+
+/* still not fixed hover issue */
+/* .btn-primary  :hover {
+    color: black !important;
+    background-color: #FF3744 !important;
+}
+.btn-primary:{
+    background: #FF3744;
+}
+
+
+.btn-primary{
+    
+    background-color: transparent !important;
+    border-color: #111010 !important;
+    color: #FF3744 !important;
+    
+} */
+/* contact button end  */
+
+
+/* Portforlio */
+.container {
+    height: 100vh;
+}
+.card {
+    height: 290px;
+    margin-top: 70px;
+    box-shadow: 5px 10px 8px #888888;
+}
+/* footer begins */
+.footer{
+    background-color: #FF3744;
+    height: 70px;
+}
+.footer2{
+    text-align: center;
+    background-color: #ff3744a1;
+}
+
+/* #carousel{
+    background-image: url(/img2pf/cool-background\ \(1\).png);
+    background-size: cover;
+} */
+
+@media only screen and (max-width:768px) {
+    .card{
+        width: 14rem !important;
+
+
+    }
+    #h5txt{
+        font-size: 45px;
+    }
+    .banner{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width:1024px) {
+    .card{
+        width: 19rem !important;
+        
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .abt{
+        font-size: 18px;
+    }
+    /* .banner{
+        width: 100%;
+    } */
+    .btn{
+    font-size: 12px;
+    
+    }
+}
+
+@media only screen and (max-width:375px) {
+    #h5txt{
+        font-size: 35px;
+    }
+    #fdev {
+        position: absolute;
+        bottom: 195%;
+        /* margin-bottom: 111; */
+    }
+    #htmcs{margin-bottom: ;
+
+    }
+}
