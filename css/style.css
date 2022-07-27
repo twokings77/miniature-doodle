@@ -1,3 +1,9 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 body{
     background-color: #EEEEED;
 }
@@ -7,6 +13,7 @@ body{
     border: 2px solid transparent;
     padding: 10px;
     box-shadow: 5px 10px 8px #888888;
+
 }
 .navbar .nav-item  :hover{
     color: black !important;
@@ -97,7 +104,7 @@ h3{
 }
 .carousel-caption a:hover {
     background-color: #FF3744 !important;
-    color: #0a0a09;
+    color: #EEEEED;
 
 }
 
@@ -202,16 +209,26 @@ h3{
 /* Portforlio */
 .container {
     height: 100vh;
+    /* min-height: 100%; */
 }
 .card {
-    height: 290px;
+    height: 400px;
     margin-top: 70px;
     box-shadow: 5px 10px 8px #888888;
 }
+
+.card-img-top{
+    overflow: hidden;
+}
+
 /* footer begins */
 .footer{
-    background-color: #FF3744;
+    background-color: rgb(255, 55, 68);
     height: 70px;
+    width: 100%;
+    margin-top: calc(90vh - 70px);
+    display: flex;
+    
 }
 .footer2{
     text-align: center;
@@ -235,7 +252,9 @@ h3{
     .banner{
         width: 100%;
     }
-    
+    #ctat{
+        background-color: transparent !important;
+    }
 }
 
 @media only screen and (max-width:1024px) {
@@ -255,6 +274,9 @@ h3{
     .btn{
     font-size: 12px;
     
+    }
+    .container{
+        height: 100%;
     }
 }
 
